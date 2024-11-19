@@ -1,0 +1,29 @@
+{
+    "faq": [
+      {
+        "question": "What is the purpose of this website?",
+        "answer": "This website helps users find the latest job opportunities, post job listings, and stay updated with career resources."
+      },
+      {
+        "question": "How can I apply for a job?",
+        "answer": "To apply for a job, simply visit the job posting and click the 'Apply Now' button. You may need to sign in to submit your application."
+      },
+      {
+        "question": "Is there a fee to post a job?",
+        "answer": "Currently, posting a job is free for employers. You can list job opportunities without any cost."
+      },
+      {
+        "question": "Can I update or delete my job postings?",
+        "answer": "Yes, once you've logged into your employer account, you can edit or remove any job listings you've posted."
+      },
+      {
+        "question": "What is the process for getting hired?",
+        "answer": "After applying, employers will review your profile and contact you if you're shortlisted. The next steps typically include an interview process."
+      },
+      {
+        "question": "What should I include in my job application?",
+        "answer": "A good job application should include an updated resume, a cover letter that showcases your skills, and any other relevant documents like certifications or portfolio links."
+      }
+    ]
+  }
+  

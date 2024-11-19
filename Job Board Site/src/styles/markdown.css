@@ -1,0 +1,71 @@
+/* src/styles/markdown.css */
+.markdown-body {
+    box-sizing: border-box;
+    width: 100%; /* Ensure it spans full width */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove all padding */
+}
+
+/* Center alignment */
+.align-center .markdown-body {
+    margin: 0 auto; /* Center it */
+    max-width: 980px; /* Max width for centering */
+}
+
+/* Left alignment */
+.align-left .markdown-body {
+    margin: 0; /* Left-aligned */
+    max-width: 100%; /* Full width */
+}
+
+/* Right alignment */
+.align-right .markdown-body {
+    margin: 0;
+    max-width: 100%;
+    text-align: right; /* Right-aligned text */
+}
+
+/* Headings */
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3 {
+    margin: 1em 0; /* Adjust margins for headings */
+}
+
+/* Lists */
+.markdown-body ul,
+.markdown-body ol {
+    padding-left: 20px; /* Indentation for lists */
+    margin-bottom: 1em; /* Space after list */
+}
+
+.markdown-body li {
+    margin-bottom: 0.5em; /* Space between list items */
+}
+
+/* Inline code */
+.markdown-body code {
+    background-color: #f4f4f4;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+/* Blockquote */
+.markdown-body blockquote {
+    border-left: 4px solid #ddd;
+    padding-left: 15px;
+    color: #555;
+}
+
+/* Make the content responsive */
+@media (max-width: 768px) {
+    .markdown-body {
+        padding: 0; /* No padding on smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .markdown-body {
+        padding: 0; /* No padding on very small screens */
+    }
+}
